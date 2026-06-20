@@ -1,0 +1,22 @@
+.DS_Store
+.build/
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+*.res
+*.tmp
+
+# Local generated apps and binaries
+YouTube Downloader.app/
+windows/YouTubeDownloader.exe
+
+# Downloaded media should not be committed.
+*.mp3
+*.mp4
+*.m4a
+*.webm
+*.mkv
+*.mov
+
+# Generated iconset can be rebuilt from assets/AppIcon.svg.
+assets/AppIcon.iconset/
