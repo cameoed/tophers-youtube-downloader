@@ -16,7 +16,17 @@ First-time setup
 ----------------
 This app uses yt-dlp and ffmpeg instead of bundling them, which keeps the app
 small and makes updates easier. If either tool is missing, the app will show a
-popup. You can also double-click "Install Required Tools.command".
+popup.
+
+To run the Mac install helper:
+  1. Open the Mac folder.
+  2. Control-click "Install Required Tools.command".
+  3. Choose Open.
+  4. Choose Open again if macOS asks.
+
+If macOS still blocks it, open System Settings > Privacy & Security, scroll to
+Security, then click Open Anyway for "Install Required Tools.command". After
+that, run it again with Control-click > Open.
 
 If it says Homebrew is missing, install Homebrew from:
   https://brew.sh
@@ -27,7 +37,16 @@ Then run this in Terminal:
 Opening the app
 ---------------
 Because this is shared directly instead of through the Mac App Store, macOS may
-warn that it cannot verify the developer. On first launch, right-click the app,
-choose Open, then choose Open again.
+warn that it cannot verify the developer.
+
+To open the app the first time:
+  1. Open the Mac folder.
+  2. Control-click "YouTube Downloader".
+  3. Choose Open.
+  4. Choose Open again if macOS asks.
+
+If macOS still blocks it, open System Settings > Privacy & Security, scroll to
+Security, then click Open Anyway for "YouTube Downloader". After that, run it
+again with Control-click > Open.
 
 Please only download content you have the rights or permission to save.
