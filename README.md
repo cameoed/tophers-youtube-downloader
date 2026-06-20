@@ -1,5 +1,7 @@
 # Topher's YouTube Downloader
 
+![Topher's YouTube Downloader](assets/youtube-downloader.jpg)
+
 A simple YouTube downloader for Mac and Windows.
 
 Download `dist/YouTube Downloader Release.zip`, unzip it, then open the Mac or Windows folder.
