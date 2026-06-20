@@ -21,7 +21,16 @@ popup. You can also double-click "Install Required Tools.bat".
 If the app still says yt-dlp or ffmpeg is missing after setup, restart Windows
 once so the new PATH entries are available to apps opened from Explorer.
 
-Windows may show a SmartScreen warning because this app is shared directly
-instead of signed with a paid code-signing certificate.
+Opening on Windows
+------------------
+This app is not signed with a paid Windows certificate, so Windows may show a
+SmartScreen warning. That is expected for a small app shared directly.
+
+If Windows shows "Windows protected your PC":
+  1. Click More info.
+  2. Click Run anyway.
+
+If Windows asks for permission to run the install helper, allow it. The helper
+installs yt-dlp and ffmpeg, which the app needs for downloads.
 
 Please only download content you have the rights or permission to save.

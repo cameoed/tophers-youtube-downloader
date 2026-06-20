@@ -36,8 +36,8 @@ Then run this in Terminal:
 
 Opening the app
 ---------------
-Because this is shared directly instead of through the Mac App Store, macOS may
-warn that it cannot verify the developer.
+This app is not Apple-notarized, so macOS will probably block it the first time.
+That is expected for a small app shared directly outside the App Store.
 
 To open the app the first time:
   1. Open the Mac folder.
@@ -45,8 +45,8 @@ To open the app the first time:
   3. Choose Open.
   4. Choose Open again if macOS asks.
 
-If macOS still blocks it, open System Settings > Privacy & Security, scroll to
-Security, then click Open Anyway for "YouTube Downloader". After that, run it
-again with Control-click > Open.
+If macOS only shows Move to Trash and Done, click Done, then open System
+Settings > Privacy & Security, scroll to Security, and click Open Anyway for
+"YouTube Downloader". After that, run it again with Control-click > Open.
 
 Please only download content you have the rights or permission to save.

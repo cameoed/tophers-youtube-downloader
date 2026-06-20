@@ -10,7 +10,8 @@ The app may ask you to install `yt-dlp` and `ffmpeg` the first time you use it.
 
 ## Mac First Open
 
-macOS may say it cannot verify the app or install helper.
+This app is not Apple-notarized, so macOS will probably block it the first time.
+That is expected for a small app shared directly outside the App Store.
 
 To open the app:
 
@@ -27,5 +28,18 @@ To run the install helper:
 4. Choose `Open` again if macOS asks.
 
 If macOS only shows `Move to Trash` and `Done`, click `Done`, then go to `System Settings > Privacy & Security`, scroll to `Security`, and click `Open Anyway`. After that, try again with Control-click > Open.
+
+## Windows First Open
+
+This app is not signed with a paid Windows certificate, so Windows may show a
+SmartScreen warning. That is expected for a small app shared directly.
+
+If Windows shows `Windows protected your PC`:
+
+1. Click `More info`.
+2. Click `Run anyway`.
+
+If Windows asks for permission to run the install helper, allow it. The helper
+installs `yt-dlp` and `ffmpeg`, which the app needs for downloads.
 
 Please only download content you have the rights or permission to save.
