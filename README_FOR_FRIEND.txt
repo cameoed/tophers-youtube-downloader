@@ -24,7 +24,7 @@ To run "Install Required Tools.command":
   1. Open the Mac folder.
   2. Control-click "Install Required Tools.command".
   3. Choose Open.
-  4. If macOS only shows Move to Trash and Done, click Done.
+  4. If macOS only shows Move to Trash and Done as options, choose "Done".
   5. Open System Settings > Privacy & Security.
   6. Scroll to Security.
   7. Click Open Anyway for "Install Required Tools.command".
@@ -46,11 +46,11 @@ To open "Topher's YouTube Downloader" the first time:
   1. Open the Mac folder.
   2. Control-click "Topher's YouTube Downloader".
   3. Choose Open.
-  4. If macOS only shows Move to Trash and Done, click Done.
+  4. If macOS only shows Move to Trash and Done as options, choose "Done".
   5. Open System Settings > Privacy & Security.
   6. Scroll to Security.
   7. Click Open Anyway for "Topher's YouTube Downloader".
   8. Go back to the Mac folder and Control-click "Topher's YouTube Downloader" again.
   9. Choose Open.
 
-Please only download content you have the rights or permission to save.
+Please only download content you have the rights or permission to save. Topher holds no liability around what you choose to download using this open source tool.

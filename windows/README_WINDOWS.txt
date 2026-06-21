@@ -33,4 +33,4 @@ If Windows shows "Windows protected your PC":
 If Windows asks for permission to run the install helper, allow it. The helper
 installs yt-dlp and ffmpeg, which the app needs for downloads.
 
-Please only download content you have the rights or permission to save.
+Please only download content you have the rights or permission to save. Topher holds no liability around what you choose to download using this open source tool.

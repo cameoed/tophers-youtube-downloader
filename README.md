@@ -19,7 +19,7 @@ For `Topher's YouTube Downloader`:
 1. Open the `Mac` folder.
 2. Control-click `Topher's YouTube Downloader`.
 3. Choose `Open`.
-4. If macOS only shows `Move to Trash` and `Done`, click `Done`.
+4. If macOS only shows `Move to Trash` and `Done` as options, choose `Done`.
 5. Open `System Settings > Privacy & Security`.
 6. Scroll to `Security`.
 7. Click `Open Anyway` for `Topher's YouTube Downloader`.
@@ -31,7 +31,7 @@ For `Install Required Tools.command`:
 1. Open the `Mac` folder.
 2. Control-click `Install Required Tools.command`.
 3. Choose `Open`.
-4. If macOS only shows `Move to Trash` and `Done`, click `Done`.
+4. If macOS only shows `Move to Trash` and `Done` as options, choose `Done`.
 5. Open `System Settings > Privacy & Security`.
 6. Scroll to `Security`.
 7. Click `Open Anyway` for `Install Required Tools.command`.
@@ -51,4 +51,4 @@ If Windows shows `Windows protected your PC`:
 If Windows asks for permission to run the install helper, allow it. The helper
 installs `yt-dlp` and `ffmpeg`, which the app needs for downloads.
 
-Please only download content you have the rights or permission to save.
+Please only download content you have the rights or permission to save. Topher holds no liability around what you choose to download using this open source tool.
