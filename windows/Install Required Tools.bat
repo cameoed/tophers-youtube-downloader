@@ -1,7 +1,7 @@
 @echo off
 setlocal
 
-echo YouTube Downloader setup
+echo Topher's YouTube Downloader setup
 echo.
 
 where winget >nul 2>nul

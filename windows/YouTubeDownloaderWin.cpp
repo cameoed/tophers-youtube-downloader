@@ -657,13 +657,13 @@ void OpenInstallHelper(const std::wstring& missingTools) {
     bool helperExists = attributes != INVALID_FILE_ATTRIBUTES && !(attributes & FILE_ATTRIBUTE_DIRECTORY);
 
     std::wstring message = missingTools + L" required.\n\n";
-    message += L"YouTube Downloader stays lightweight by using yt-dlp and ffmpeg from Windows instead of bundling them.\n\n";
+    message += L"Topher's YouTube Downloader stays lightweight by using yt-dlp and ffmpeg from Windows instead of bundling them.\n\n";
     message += helperExists
         ? L"Open Install Required Tools.bat now?"
         : L"Install yt-dlp and ffmpeg, then reopen the app and try again.";
 
     UINT buttons = helperExists ? MB_ICONWARNING | MB_YESNO : MB_ICONWARNING | MB_OK;
-    int result = MessageBoxW(g_window, message.c_str(), L"YouTube Downloader", buttons);
+    int result = MessageBoxW(g_window, message.c_str(), L"Topher's YouTube Downloader", buttons);
 
     if (helperExists && result == IDYES) {
         ShellExecuteW(g_window, L"open", helper.c_str(), nullptr, g_appDir.c_str(), SW_SHOWNORMAL);
@@ -1068,7 +1068,7 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE, PWSTR, int showCommand) {
     HWND hwnd = CreateWindowExW(
         0,
         windowClass.lpszClassName,
-        L"YouTube Downloader",
+        L"Topher's YouTube Downloader",
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,

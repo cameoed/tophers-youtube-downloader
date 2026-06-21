@@ -1,5 +1,5 @@
-YouTube Downloader
-==================
+Topher's YouTube Downloader
+===========================
 
 What it does
 ------------
@@ -42,15 +42,15 @@ Opening the app
 This app is not Apple-notarized, so macOS will probably block it the first time.
 That is expected for a small app shared directly outside the App Store.
 
-To open "YouTube Downloader" the first time:
+To open "Topher's YouTube Downloader" the first time:
   1. Open the Mac folder.
-  2. Control-click "YouTube Downloader".
+  2. Control-click "Topher's YouTube Downloader".
   3. Choose Open.
   4. If macOS only shows Move to Trash and Done, click Done.
   5. Open System Settings > Privacy & Security.
   6. Scroll to Security.
-  7. Click Open Anyway for "YouTube Downloader".
-  8. Go back to the Mac folder and Control-click "YouTube Downloader" again.
+  7. Click Open Anyway for "Topher's YouTube Downloader".
+  8. Go back to the Mac folder and Control-click "Topher's YouTube Downloader" again.
   9. Choose Open.
 
 Please only download content you have the rights or permission to save.

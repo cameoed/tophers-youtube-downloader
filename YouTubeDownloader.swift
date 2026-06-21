@@ -435,7 +435,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSTe
         mainMenu.addItem(editMenuItem)
 
         let appMenu = NSMenu()
-        appMenu.addItem(NSMenuItem(title: "Quit YouTube Downloader", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
+        appMenu.addItem(NSMenuItem(title: "Quit Topher's YouTube Downloader", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
         appMenuItem.submenu = appMenu
 
         let editMenu = NSMenu(title: "Edit")
@@ -460,7 +460,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSTe
             defer: false
         )
         window.center()
-        window.title = "YouTube Downloader"
+        window.title = "Topher's YouTube Downloader"
         window.delegate = self
 
         let rootView = NSView()
@@ -952,7 +952,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSTe
         alert.alertStyle = .warning
         alert.messageText = "\(missingTools.joined(separator: " and ")) required"
         alert.informativeText = """
-        YouTube Downloader stays lightweight by using yt-dlp and ffmpeg from your Mac instead of bundling them.
+        Topher's YouTube Downloader stays lightweight by using yt-dlp and ffmpeg from your Mac instead of bundling them.
 
         Install the required tools, then reopen the app and try again.
         """

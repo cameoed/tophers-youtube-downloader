@@ -1,5 +1,5 @@
-YouTube Downloader for Windows
-==============================
+Topher's YouTube Downloader for Windows
+=======================================
 
 What it does
 ------------

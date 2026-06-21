@@ -3,7 +3,7 @@ set -e
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 
-echo "YouTube Downloader setup"
+echo "Topher's YouTube Downloader setup"
 echo
 
 if ! command -v brew >/dev/null 2>&1; then
@@ -21,6 +21,6 @@ echo "Installing/updating yt-dlp and ffmpeg..."
 brew install yt-dlp ffmpeg
 
 echo
-echo "Done. You can open YouTube Downloader now."
+echo "Done. You can open Topher's YouTube Downloader now."
 echo
 read -r "?Press Return to close."

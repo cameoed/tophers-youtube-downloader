@@ -19,10 +19,10 @@ x86_64-w64-mingw32-g++ \
   -static-libstdc++ \
   "$ROOT_DIR/YouTubeDownloaderWin.cpp" \
   "$RES_FILE" \
-  -o "$ROOT_DIR/YouTubeDownloader.exe" \
+  -o "$ROOT_DIR/Topher's YouTube Downloader.exe" \
   -lcomctl32 \
   -lole32 \
   -lshell32 \
   -luuid
 
-echo "Built: $ROOT_DIR/YouTubeDownloader.exe"
+echo "Built: $ROOT_DIR/Topher's YouTube Downloader.exe"

@@ -4,7 +4,7 @@
 
 A simple YouTube downloader for Mac and Windows.
 
-Download `dist/YouTube Downloader Release.zip`, unzip it, then open the Mac or Windows folder.
+Download `dist/Topher's YouTube Downloader Release.zip`, unzip it, then open the Mac or Windows folder.
 
 The app may ask you to install `yt-dlp` and `ffmpeg` the first time you use it.
 
@@ -14,16 +14,16 @@ This app is not Apple-notarized, so macOS will probably block both the app and
 the install helper the first time. That is expected for a small app shared
 directly outside the App Store.
 
-For `YouTube Downloader`:
+For `Topher's YouTube Downloader`:
 
 1. Open the `Mac` folder.
-2. Control-click `YouTube Downloader`.
+2. Control-click `Topher's YouTube Downloader`.
 3. Choose `Open`.
 4. If macOS only shows `Move to Trash` and `Done`, click `Done`.
 5. Open `System Settings > Privacy & Security`.
 6. Scroll to `Security`.
-7. Click `Open Anyway` for `YouTube Downloader`.
-8. Go back to the `Mac` folder and Control-click `YouTube Downloader` again.
+7. Click `Open Anyway` for `Topher's YouTube Downloader`.
+8. Go back to the `Mac` folder and Control-click `Topher's YouTube Downloader` again.
 9. Choose `Open`.
 
 For `Install Required Tools.command`:

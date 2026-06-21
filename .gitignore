@@ -9,6 +9,7 @@
 # Local generated apps and binaries
 YouTube Downloader.app/
 windows/YouTubeDownloader.exe
+windows/Topher's YouTube Downloader.exe
 
 # Downloaded media should not be committed.
 *.mp3
