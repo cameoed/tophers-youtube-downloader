@@ -18,15 +18,18 @@ This app uses yt-dlp and ffmpeg instead of bundling them, which keeps the app
 small and makes updates easier. If either tool is missing, the app will show a
 popup.
 
-To run the Mac install helper:
+macOS will probably block the install helper because it is unsigned.
+
+To run "Install Required Tools.command":
   1. Open the Mac folder.
   2. Control-click "Install Required Tools.command".
   3. Choose Open.
-  4. Choose Open again if macOS asks.
-
-If macOS still blocks it, open System Settings > Privacy & Security, scroll to
-Security, then click Open Anyway for "Install Required Tools.command". After
-that, run it again with Control-click > Open.
+  4. If macOS only shows Move to Trash and Done, click Done.
+  5. Open System Settings > Privacy & Security.
+  6. Scroll to Security.
+  7. Click Open Anyway for "Install Required Tools.command".
+  8. Go back to the Mac folder and Control-click "Install Required Tools.command" again.
+  9. Choose Open.
 
 If it says Homebrew is missing, install Homebrew from:
   https://brew.sh
@@ -39,14 +42,15 @@ Opening the app
 This app is not Apple-notarized, so macOS will probably block it the first time.
 That is expected for a small app shared directly outside the App Store.
 
-To open the app the first time:
+To open "YouTube Downloader" the first time:
   1. Open the Mac folder.
   2. Control-click "YouTube Downloader".
   3. Choose Open.
-  4. Choose Open again if macOS asks.
-
-If macOS only shows Move to Trash and Done, click Done, then open System
-Settings > Privacy & Security, scroll to Security, and click Open Anyway for
-"YouTube Downloader". After that, run it again with Control-click > Open.
+  4. If macOS only shows Move to Trash and Done, click Done.
+  5. Open System Settings > Privacy & Security.
+  6. Scroll to Security.
+  7. Click Open Anyway for "YouTube Downloader".
+  8. Go back to the Mac folder and Control-click "YouTube Downloader" again.
+  9. Choose Open.
 
 Please only download content you have the rights or permission to save.
